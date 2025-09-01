@@ -2,7 +2,7 @@
 This Python script processes Amide Proton Transfer (APT) Chemical Exchange Saturation Transfer (CEST) MRI data to generate APT-weighted (APTw) images. The implementation includes B0 inhomogeneity correction, interpolation of saturation offsets, and symmetric subtraction analysis.
 
 ## Requirements
-- Python 3.x
+- Python >= 3.9
 - Required packages:
   - numpy
   - nibabel
