@@ -57,8 +57,7 @@ main_apt("processed", 7, "apt_mcf", "b0_mag_brain", "fmap_hz", "13_APTw")
 3. **Post-processing**:
    - Sets APTw to -5 where magnitude is 0
    - Clips values to range [-5, 5]
-   - Applies Gaussian smoothing (σ=1)
-
+     
 ## Output
 - **APTw Image** (`{APTw_out_file}.nii.gz`):
   - 3D NIfTI file containing APT-weighted values
