@@ -47,7 +47,7 @@ def main_apt(APT_dir_path, nOffsets, APT_file, AMP_file, PHA_file, APTw_out_file
     # Post processing
     APTw = np.where(AMP_data>0, APTw, -5)
     APTw = np.clip(APTw, -5, 5)
-    APTw = gaussian_filter(APTw, sigma=1)
+    # APTw = gaussian_filter(APTw, sigma=1)
 
     # Save result
     aptw_img = nib.Nifti1Image(APTw, apt_img.affine, apt_img.header)
